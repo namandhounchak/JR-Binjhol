@@ -31,20 +31,20 @@ const Contact = () => {
             <div className="bg-card rounded-lg shadow p-6 text-center">
               <Phone className="mx-auto text-primary mb-3" size={32} />
               <h4 className="font-heading font-bold text-secondary mb-2">Phone</h4>
-              <p className="text-sm text-muted-foreground">+91 XXXXX XXXXX</p>
+              <p className="text-sm text-muted-foreground">+91 91227 60000</p>
               <p className="text-sm text-muted-foreground">+91 XXXXX XXXXX</p>
             </div>
             <div className="bg-card rounded-lg shadow p-6 text-center">
               <MapPin className="mx-auto text-primary mb-3" size={32} />
               <h4 className="font-heading font-bold text-secondary mb-2">Address</h4>
               <p className="text-sm text-muted-foreground">
-                JR Binjhol,<br />India
+                V.P.O Binjhol, Panipat <br />
               </p>
             </div>
             <div className="bg-card rounded-lg shadow p-6 text-center sm:col-span-2">
               <Mail className="mx-auto text-primary mb-3" size={32} />
               <h4 className="font-heading font-bold text-secondary mb-2">Email</h4>
-              <p className="text-sm text-muted-foreground">info@jrbinjhol.com</p>
+              <p className="text-sm text-muted-foreground">jrbinjol@gmail.com</p>
             </div>
           </div>
 
