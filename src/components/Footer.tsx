@@ -26,8 +26,9 @@ const Footer = () => (
         <h4 className="font-heading font-bold text-lg mb-4">Contact Info</h4>
         <ul className="space-y-3 text-sm opacity-80">
           <li className="flex items-start gap-2"><Phone size={16} className="mt-0.5 shrink-0" /> +91 91227 60000</li>
-          <li className="flex items-start gap-2"><Mail size={16} className="mt-0.5 shrink-0" /> jrbinjol@gmail.com</li>
-          <li className="flex items-start gap-2"><MapPin size={16} className="mt-0.5 shrink-0" /> V.P.O Binjhol, Panipat</li>
+          <li className="flex items-start gap-2"><Phone size={16} className="mt-0.5 shrink-0" /> +91 75000 00010 </li>
+          <li className="flex items-start gap-2"><Mail size={16} className="mt-0.5 shrink-0" /> jrbinjhol@gmail.com</li>
+          <li className="flex items-start gap-2"><MapPin size={16} className="mt-0.5 shrink-0" /> V.P.O Binjhol, Panipat, Haryana, 132103</li>
         </ul>
       </div>
     </div>

@@ -7,7 +7,9 @@ import brownEggs from "@/assets/brown-eggs.jpg";
 const stats = [
   { value: "30+", label: "Years Experience" },
   { value: "500K+", label: "Eggs / Day" },
-  { value: "ISO", label: "9001:2015 Certified" },
+  { value: "FSSAI", label: "Certified" },
+  { value: "HSPCB", label: "Certified" },
+  { value: "MSME", label: "Registered" },
   { value: "100+", label: "Happy Buyers" },
 ];
 
@@ -126,7 +128,9 @@ const Index = () => (
           {[
             { icon: Shield, label: "White Shell Eggs" },
             { icon: Award, label: "Brown Shell Eggs" },
-            { icon: CheckCircle, label: "ISO 9001:2015" },
+            { icon: CheckCircle, label: "FSSAI Certified" },
+            { icon: CheckCircle, label: "HSPCB Certified" },
+            { icon: CheckCircle, label: "MSME Registered" },
             { icon: Truck, label: "Global Shipping" },
           ].map(({ icon: Icon, label }) => (
             <div key={label} className="p-6">

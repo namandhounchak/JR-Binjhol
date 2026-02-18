@@ -29,7 +29,7 @@ const Products = () => (
                 <tbody>
                   {[
                     ["Min. Order Quantity", "1312 Carton/Cartons"],
-                    ["Port", "Chennai, Tuticorin, Cochin"],
+                    ["Port", "Chennai, Tuticorin, Cochin, Mumbai, Mundra"],
                     ["Payment Terms", "T/T 50% Advance, Balance 50% against B/L"],
                     ["Category", "Fresh White Shell Eggs, Brown Shell Eggs"],
                   ].map(([k, v]) => (
@@ -82,6 +82,14 @@ const Products = () => (
               <li>• 2184 Cartons per container</li>
               <li>• Each carton: 7 Trays × 30 Eggs = 210 Eggs</li>
               <li>• Container total: 4,58,640 Eggs</li>
+            </ul>
+          </div>
+          <div className="bg-card rounded-lg shadow p-5 border-l-4 border-primary">
+            <p className="font-semibold mb-2">40 Footer Container with 12 tray box:</p>
+            <ul className="space-y-1 text-sm text-muted-foreground">
+              <li>• 1312 Cartons per container</li>
+              <li>• Each carton: 12 Trays × 30 Eggs = 360 Eggs</li>
+              <li>• Container total: 4,72,320 Eggs</li>
             </ul>
           </div>
         </div>
