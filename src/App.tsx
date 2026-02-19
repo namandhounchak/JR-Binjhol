@@ -1,5 +1,5 @@
 import { Toaster } from "@/components/ui/toaster";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import FloatingContactButtons from "@/components/FloatingContactButtons";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -22,7 +22,7 @@ const App = () => (
       <BrowserRouter>
 
         {/* 🔥 WhatsApp Button Appears On All Pages */}
-        <WhatsAppButton />
+        <FloatingContactButtons />
 
         <Routes>
           <Route element={<Layout />}>
