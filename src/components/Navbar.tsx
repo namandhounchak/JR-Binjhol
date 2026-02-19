@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-20">
         <Link to="/" className="flex items-center gap-2">
           <span className="font-heading font-extrabold text-2xl tracking-tight text-primary">
-            JR<span className="text-secondary"> BINJHOL</span>
+            JR<span className="text-secondary"> Group</span>
           </span>
         </Link>
 

@@ -12,7 +12,7 @@ const About = () => (
             Meet Your Trusted Egg Export Partner: Our Story
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            JR Binjhol is a professionally managed partnership firm with decades of combined experience
+            JR Group is a professionally managed partnership firm with decades of combined experience
             in the poultry industry. Our operations are designed for scale, consistency, and
             international-grade quality.
           </p>
@@ -22,7 +22,7 @@ const About = () => (
           </p>
         </div>
         <div className="bg-card rounded-lg shadow-lg p-8 border-l-4 border-primary">
-          <h3 className="font-heading font-bold text-xl text-primary mb-4">At JR Binjhol,</h3>
+          <h3 className="font-heading font-bold text-xl text-primary mb-4">At JR Group,</h3>
           <p className="text-foreground leading-relaxed mb-4">
             We believe in delivering not just products, but trust. Our leadership team brings
             extensive expertise in commercial layer farming, feed manufacturing, and export logistics.

@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="container py-14 grid grid-cols-1 md:grid-cols-3 gap-10">
       <div>
         <h3 className="font-heading font-bold text-xl mb-4">
-          JR<span className="text-primary"> BINJHOL</span>
+          JR<span className="text-primary"> Group</span>
         </h3>
         <p className="text-sm opacity-80 leading-relaxed">
           Premium egg exporters from India. Delivering export-grade fresh eggs with consistency, hygiene, and reliability.
@@ -33,7 +33,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="border-t border-background/20 py-4 text-center text-sm opacity-60">
-      © {new Date().getFullYear()} JR Binjhol. All rights reserved.
+      © {new Date().getFullYear()} JR Group. All rights reserved.
     </div>
   </footer>
 );
